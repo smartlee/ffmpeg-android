@@ -1,0 +1,10 @@
+arm-linux-androideabi-gcc: libtest.so: No such file or directory
+In file included from test.c:5:
+dsputil.h: In function 'rnd_avg64':
+dsputil.h:612: warning: integer constant is too large for 'unsigned long' type
+dsputil.h: In function 'no_rnd_avg64':
+dsputil.h:617: warning: integer constant is too large for 'unsigned long' type
+test.c: In function 'jl_h264_init':
+test.c:20: warning: 'avcodec_init' is deprecated (declared at avcodec.h:3932)
+test.c:21: warning: 'avcodec_alloc_context' is deprecated (declared at avcodec.h:4025)
+test.c:24: warning: 'avcodec_open' is deprecated (declared at avcodec.h:4155)
